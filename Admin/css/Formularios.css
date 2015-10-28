@@ -1,9 +1,12 @@
 /* CSS Document */
 
-.formcliente{
-	padding:30px;
-	border-top:dashed #666;
-    border-bottom:dashed #666
+.formulario{
+	padding-top:30px;
+	padding-bottom:30px;
+    font-size: 16px;
+}
+.form-imagen{
+	padding-bottom: 30px
 }
 
 .pad{

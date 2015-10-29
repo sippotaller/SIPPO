@@ -23,12 +23,24 @@
         templateUrl: 'Views/CatalogoProveedores.html',
         controller: ''
       })
-      .when('/usuario', {
+      .when('/usuarios', {
         templateUrl: 'Views/Usuario.html',
         controller: ''
       })
       .when('/asignarpermisos', {
         templateUrl: 'Views/AsignarPermisos.html',
+        controller: ''
+      })
+      .when('/nuevocliente', {
+        templateUrl: 'Views/NuevoCliente.html',
+        controller: ''
+      })
+      .when('/nuevousuario', {
+        templateUrl: 'Views/NuevoUsuario.html',
+        controller: ''
+      })
+      .when('/', {
+        templateUrl: 'Views/Home.html',
         controller: ''
       });
 

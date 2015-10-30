@@ -1,7 +1,8 @@
 (function () {
 
   var app = angular.module('sippo', [
-    'ngRoute'
+    'ngRoute',
+    'sippo.controllers'
   ]);
 
   app.config(['$routeProvider', function ($routeProvider) {
@@ -38,6 +39,18 @@
       .when('/nuevousuario', {
         templateUrl: 'Views/NuevoUsuario.html',
         controller: ''
+      })
+      .when('/ventas', {
+        templateUrl: 'Views/Ventas.html',
+        controller: ''
+      })
+      .when('/pedidos', {
+        templateUrl: 'Views/pedidos.html',
+        controller: ''
+      })
+      .when('/pedidos/:idpedido', {
+        templateUrl: 'Views/DetallePedido.html',
+        controller: 'pedidosController'
       })
       .when('/', {
         templateUrl: 'Views/Home.html',

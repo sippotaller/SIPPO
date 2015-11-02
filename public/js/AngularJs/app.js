@@ -16,12 +16,20 @@
         templateUrl: 'Views/Producto.html',
         controller: ''
       })
+      .when('/nuevoproducto', {
+        templateUrl: 'Views/NuevoProducto.html',
+        controller: ''
+      })
       .when('/catalogoclientes', {
         templateUrl: 'Views/CatalogoClientes.html',
         controller: ''
       })
       .when('/catalogoproveedores', {
         templateUrl: 'Views/CatalogoProveedores.html',
+        controller: ''
+      })
+      .when('/formapago', {
+        templateUrl: 'Views/FormaPago.html',
         controller: ''
       })
       .when('/usuarios', {

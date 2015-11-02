@@ -450,8 +450,6 @@
                 </div>
             </div>
         </div>
-
-
         <div class="modal fade" id="modal-id">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -461,17 +459,113 @@
                     </div>
                     <div class="modal-body">
                         <div class="panel panel-info">
-                              <div class="panel-heading">
-                                    <h3 class="panel-title">Forma de Pago</h3>
-                              </div>
-                              <div class="panel-body">
-                                 bs3r
-                              </div>
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Forma de Pago</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div role="tabpanel">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active">
+                                            <a href="#formapago_1" aria-controls="formapago_1" role="tab" data-toggle="tab">
+                                                <span class="" aria-hidden="true">S/.</span>
+                                                Efectivo
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#formapago_2" aria-controls="formapago_1" role="tab" data-toggle="tab">
+                                                <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
+                                                Tarjeta
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="formapago_1">
+                                            <div class="col-xs-12">
+                                                <h2 style="text-align:center;">
+                                                S/. 5,30
+                                                </h2>
+                                            </div>
+                                            <div class="col-xs-offset-2 col-xs-8">
+                                                <input type="number" class="form-control" >
+                                            </div>
+                                            <div class="col-xs-offset-2 col-xs-4">
+                                                <label class="label-control">Pagado :</label>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <label class="label-control">S/. 10,00</label>
+                                            </div>
+                                            <div class="col-xs-offset-2 col-xs-4">
+                                                <label class="label-control">Restante :</label>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <label class="label-control">S/. 0,00</label>
+                                            </div>
+                                            <div class="col-xs-offset-2 col-xs-4">
+                                                <label class="label-control">Cambio :</label>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <label class="label-control">S/. 4,7</label>
+                                            </div>
+                                            
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="formapago_2">
+                                            <div class="col-xs-offset-4 col-xs-6 pad">
+                                                <div class="btn-group" data-toggle="buttons">
+                                                    <label class="btn btn-default">
+                                                        <input type="radio"  name="tarj" value="1" /> Visa
+                                                    </label>
+                                                    <label class="btn btn-default">
+                                                        <input type="radio"  name="tarj" value="2" /> Mastercard
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <h2 style="text-align:center;">
+                                                S/. 5,30
+                                                </h2>
+                                            </div>
+                                            <div class="col-xs-offset-2 col-xs-8">
+                                                <input type="number" class="form-control" >
+                                            </div>
+                                            <div class="col-xs-offset-2 col-xs-4">
+                                                <label class="label-control">Pagado :</label>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <label class="label-control">S/. 10,00</label>
+                                            </div>
+                                            <div class="col-xs-offset-2 col-xs-4">
+                                                <label class="label-control">Restante :</label>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <label class="label-control">S/. 0,00</label>
+                                            </div>
+                                            <div class="col-xs-offset-2 col-xs-4">
+                                                <label class="label-control">Cambio :</label>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <label class="label-control">S/. 4,7</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-                        <button type="button" class="btn btn-primary">Venta</button>
+
+                        <button type="button" class="btn btn-primary">
+                            <i class="glyphicon glyphicon-file" aria-hidden="true"></i> 
+                            Factura 
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            <span class="glyphicon glyphicon-print" aria-hidden="true"></span> 
+                            Venta 
+                        </button>
+
                     </div>
                 </div>
             </div>
